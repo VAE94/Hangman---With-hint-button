@@ -1,0 +1,10 @@
+// External resources
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Core
+@import "variabiles";
+@import "mixins";
+@import "reset";
+
+// App
+@import 'homepage/hangman';

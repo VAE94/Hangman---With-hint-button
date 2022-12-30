@@ -1,0 +1,42 @@
+body,footer,header,main,section,
+menu,nav,dd,dl,ol,ul,li,
+h1,h2,h3,h4,h5,h6,
+p,a,small,span,sup,sub,
+blockquote, q,
+code, kbd, pre, samp,
+form, fieldset, label,
+table,thead,tbody,tr,td,tfoot,
+article, aside,
+details, figcaption,
+figure,
+audio, canvas, img, video,
+summary, legend {
+    margin: 0;
+}
+
+a {
+    transition: all .3s ease;
+    &:hover,&:focus,&:active {
+        text-decoration: none;
+    }
+}
+ul {
+    padding: 0;
+}
+ul,
+li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.slick-slide {
+    &:hover,&:focus,&:active {
+        outline: none !important;
+    }
+}
+.slick-arrow {
+    cursor: pointer;
+}
